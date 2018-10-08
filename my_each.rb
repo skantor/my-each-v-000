@@ -1,6 +1,6 @@
 def my_each (collection)# put argument(s) here
   # code here
-  collection.each do |i|
+  while i < collection.length
     puts i 
   end
 end
